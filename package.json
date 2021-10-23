@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/tainguyentt/hello-ethereum-smartcontract#readme",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.5.1",
     "hardhat": "^2.6.7"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }
