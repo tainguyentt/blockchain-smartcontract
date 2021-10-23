@@ -21,6 +21,16 @@ Contract deployed to address: 0xe49a1Fe54Ef9cdF93Bce77E1e3a18bEa7b13b10a
 ```
 ![Etherscan](./assets/etherscan.png)
 ![Alchemy](./assets/alchemy.png)
+- Interact with the deployed smart contract: read init message, update message
+```
+npx hardhat run scripts/interact.js
+```
+Result:
+```
+The message is: Hello World!
+Updating the message ...
+The new message is: This is the new message.
+```
 
 # Project Structure
 ```
