@@ -1,5 +1,11 @@
-# Hello Ethereum Smart Contract
-A simple smart contract of Ethereum blockchain following the [guide](https://ethereum.org/en/developers/tutorials/hello-world-smart-contract)
+# Ethereum Smart Contract
+Create and deploy a simple smart contract on the Ropsten test network of Ethereum blockchain using a virtual wallet (Metamask), Solidity, Hardhat, and Alchemy by following the [guide](https://ethereum.org/en/developers/tutorials/hello-world-smart-contract)
+
+# Project Structure
+```
+- contracts/ smart contract code files
+- scripts/ scripts to deploy and interact with our contract
+```
 
 ## Steps
 - Connect to Ethereum network using Alchemy - a blockchain developer platform and API that allows us to communicate with the Ethereum chain without having to run our own nodes
@@ -31,10 +37,17 @@ The message is: Hello World!
 Updating the message ...
 The new message is: This is the new message.
 ```
-
-# Project Structure
+- Publish smart contract source code to Etherscan
 ```
-- contracts/ smart contract code files
-- scripts/ scripts to deploy and interact with our contract
+npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS 'Hello World!'
 ```
+Result:
+```
+Successfully submitted source code for contract
+contracts/HelloWorld.sol:HelloWorld at 0xe49a1Fe54Ef9cdF93Bce77E1e3a18bEa7b13b10a
+for verification on Etherscan. Waiting for verification result...
 
+Successfully verified contract HelloWorld on Etherscan.
+https://ropsten.etherscan.io/address/0xe49a1Fe54Ef9cdF93Bce77E1e3a18bEa7b13b10a#code
+```
+![Etherscan Contract Source Code](./assets/etherscan_sourcecode.png)
