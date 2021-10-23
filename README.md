@@ -6,3 +6,9 @@ A simple smart contract of Ethereum blockchain following the [guide](https://eth
 - Create an Ethereum account using Metamask
 - Create a project using Hardhat - a development environment to compile, deploy, test, and debug your Ethereum software. It helps developers when building smart contracts and dApps locally before deploying to the live chain
 
+# Project Structure
+```
+- contracts/ smart contract code files
+- scripts/ scripts to deploy and interact with our contract
+```
+
