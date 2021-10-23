@@ -1,0 +1,22 @@
+{
+  "name": "hello-ethereum",
+  "version": "1.0.0",
+  "description": "hello world smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tainguyentt/hello-ethereum-smartcontract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tainguyentt/hello-ethereum-smartcontract/issues"
+  },
+  "homepage": "https://github.com/tainguyentt/hello-ethereum-smartcontract#readme",
+  "devDependencies": {
+    "hardhat": "^2.6.7"
+  }
+}
