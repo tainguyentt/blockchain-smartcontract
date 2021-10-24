@@ -23,7 +23,7 @@ npx hardhat run scripts/deploy.js --network ropsten
 ```
 Result:
 ```
-Contract deployed to address: 0xe49a1Fe54Ef9cdF93Bce77E1e3a18bEa7b13b10a
+Contract deployed to address: 0x86CF8Ce0b2Ae78Eb1B0b28A15B2Ffb4DeF2e2f5c
 ```
 ![Etherscan](./assets/etherscan.png)
 ![Alchemy](./assets/alchemy.png)
@@ -39,15 +39,15 @@ The new message is: This is the new message.
 ```
 - Publish smart contract source code to Etherscan
 ```
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS 'Hello World!'
+npx hardhat verify --network ropsten <DEPLOYED_CONTRACT_ADDRESS> 'Hello World!'
 ```
 Result:
 ```
 Successfully submitted source code for contract
-contracts/HelloWorld.sol:HelloWorld at 0xe49a1Fe54Ef9cdF93Bce77E1e3a18bEa7b13b10a
+contracts/HelloWorld.sol:HelloWorld at 0x86CF8Ce0b2Ae78Eb1B0b28A15B2Ffb4DeF2e2f5c
 for verification on Etherscan. Waiting for verification result...
 
 Successfully verified contract HelloWorld on Etherscan.
-https://ropsten.etherscan.io/address/0xe49a1Fe54Ef9cdF93Bce77E1e3a18bEa7b13b10a#code
+https://ropsten.etherscan.io/address/0x86CF8Ce0b2Ae78Eb1B0b28A15B2Ffb4DeF2e2f5c
 ```
 ![Etherscan Contract Source Code](./assets/etherscan_sourcecode.png)
